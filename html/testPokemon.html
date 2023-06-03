@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+
+    <link rel="stylesheet" href="../css/estiloPokemon.css">
+
+    <script src="../js/scriptPokemon.js"></script>
+
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="pokemon">
+            <header>
+                <h1>Juego Pokemon</h1>
+            </header>
+            <nav></nav>
+            <section>
+
+
+                <div class="encabezado">
+
+                    <label id="testPuntaje" for="">Puntaje:</label>
+                    <label id="testIntentos" for="">Intentos:</label>
+                    <label for="">Selecciona el nombre del Pokemon correcto</label>
+                </div>
+
+                <div class="imagenes">
+                    <img id="imagen1" src="../img/pnegro.jpg" alt="No se puede cargar la imagen">
+                    <img id="imagen2" src="../img/pcolor.jpg" alt="No se puede mostrar la imagen">
+                </div>
+                <div class="botones">
+                    <label id="texto" for=""></label>
+                    <button onclick="comparacion('opcion1')">Keldeo-ordinary</button>
+                    <button onclick="comparacion('opcion2')">drilbur</button>
+                    <button onclick="comparacion('opcion3')">ninjask</button>
+                    <button onclick="comparacion('opcion4')">excadrill</button>
+                    <button onclick="location.reload()">reiniciar</button>
+
+                </div>
+            </section>
+            <footer></footer>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

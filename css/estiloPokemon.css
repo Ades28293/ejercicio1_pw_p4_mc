@@ -1,0 +1,25 @@
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones button{
+    display: grid;
+    margin: 5px;
+    width: 275px;
+    border-radius: 10px;
+}
+#imagen2{
+    display: none;
+}
+
+.encabezado{
+    display: grid;
+    border-style: dashed;
+    border-radius: 15px;
+}
+
+.imagenes img{
+    border: solid red;
+}
